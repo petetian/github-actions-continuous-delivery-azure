@@ -1,0 +1,9 @@
+name: Stage the app
+
+on: 
+  pull_request:
+    type: [labeled]
+    
+jobs:
+  build:
+    runs-on: utuntu-latest
